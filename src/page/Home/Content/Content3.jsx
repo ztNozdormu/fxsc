@@ -1,9 +1,9 @@
-import React from 'react';
-import QueueAnim from 'rc-queue-anim';
-import TweenOne from 'rc-tween-one';
-import { Row, Col } from 'antd';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { getChildrenToRender } from './utils';
+import React from './node_modules/react';
+import QueueAnim from './node_modules/rc-queue-anim';
+import TweenOne from './node_modules/rc-tween-one';
+import { Row, Col } from './node_modules/antd';
+import OverPack from './node_modules/rc-scroll-anim/lib/ScrollOverPack';
+import { getChildrenToRender } from '../utils';
 
 class Content3 extends React.PureComponent {
   getDelay = (e, b) => (e % b) * 100 + Math.floor(e / b) * 100 + b * 100;

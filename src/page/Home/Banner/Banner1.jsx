@@ -1,11 +1,11 @@
-import React from 'react';
-import { Button } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
-import QueueAnim from 'rc-queue-anim';
-import TweenOne, { TweenOneGroup } from 'rc-tween-one';
-import BannerAnim, { Element } from 'rc-banner-anim';
-import { isImg } from './utils';
-import 'rc-banner-anim/assets/index.css';
+import React from './node_modules/react';
+import { Button } from './node_modules/antd';
+import { DownOutlined } from './node_modules/@ant-design/icons';
+import QueueAnim from './node_modules/rc-queue-anim';
+import TweenOne, { TweenOneGroup } from './node_modules/rc-tween-one';
+import BannerAnim, { Element } from './node_modules/rc-banner-anim';
+import { isImg } from '../utils';
+import './node_modules/rc-banner-anim/assets/index.css';
 
 const { BgElement } = Element;
 class Banner extends React.PureComponent {

@@ -1,10 +1,10 @@
-import React from 'react';
-import TweenOne from 'rc-tween-one';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import QueueAnim from 'rc-queue-anim';
-import { Row, Col } from 'antd';
-import { getChildrenToRender } from './utils';
-import { isImg } from './utils';
+import React from './node_modules/react';
+import TweenOne from './node_modules/rc-tween-one';
+import OverPack from './node_modules/rc-scroll-anim/lib/ScrollOverPack';
+import QueueAnim from './node_modules/rc-queue-anim';
+import { Row, Col } from './node_modules/antd';
+import { getChildrenToRender } from '../Home/utils';
+import { isImg } from '../Home/utils';
 
 class Footer extends React.Component {
   static defaultProps = {
